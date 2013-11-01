@@ -256,10 +256,6 @@ private:
 #ifdef BOARD_EGL_NEEDS_LEGACY_FB
     bool                        mDequeuedOnce;
 #endif
-
-#ifdef SURFACE_SKIP_FIRST_DEQUEUE
-    bool                        mDequeuedOnce;
-#endif
 };
 
 }; // namespace android
